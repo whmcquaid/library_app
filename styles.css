@@ -33,7 +33,6 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    position: fixed;
     bottom: 30px;
     float: left;
   }
