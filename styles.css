@@ -16,7 +16,6 @@ footer{
     width:100%;
     position: absolute;
     bottom: 0; 
-    float: right;
 }
 
 body{
@@ -36,6 +35,7 @@ body{
     margin-top: 30px;
     position: fixed;
     bottom: 30px;
+    float: left;
   }
   
   #newBtn {
@@ -51,6 +51,7 @@ body{
   
   #Library-container {
     display: flex;
+      justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
   }
