@@ -1,0 +1,30 @@
+<!Doctype html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library App</title>
+</head>
+<body>
+<h1>Library</h1>
+     <div id="popUp">
+        <form id='form' action='/script.js'>
+            <span class="close">&times;</span>
+            <ledgend>New Book</ledgend>
+            <div id='textInput'> 
+                <p><input type='text' id='title' name='title' placeholder='Title'></p>
+                <p><input type='text' id='author' name='author' placeholder='Author'></p>
+                <p><input type='text' id='pages' name='pages' placeholder='Pages'></p>
+            </div>
+            <div id='checkBox'>
+                <p><label >Read: </label><input type='checkbox' id='read' name='haveRead' value='yes'></p>
+            </div>
+            <button type='submit' form='form' id='addBtn'>Add</button>
+        </form>
+    </div>
+    <div id='Library-container'></div>
+    <div id='newBtn-Container'>
+        <button id='newBtn'>Add New Book</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
