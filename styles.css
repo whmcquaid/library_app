@@ -33,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    bottom: 30px;
+    margin-bottom: 30px;
   }
   
   #newBtn {
