@@ -8,7 +8,7 @@ html,body{
 }
 
 #body{
-    padding-bottom: 75px;    /* height of footer */
+    padding-bottom: 165px;    /* height of footer */
 }
 
 footer{
@@ -26,7 +26,8 @@ body{
     display: flex;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    font-size: 55px;
+    font-size: 65px;
+    margin-top: 50px;
   }
   
   #newBtn-Container {
