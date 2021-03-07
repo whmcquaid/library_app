@@ -16,6 +16,7 @@ footer{
     width:100%;
     position: absolute;
     bottom: 0; 
+    padding-bottom: 30px;
 }
 
 body{
@@ -34,7 +35,6 @@ body{
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-bottom: 30px;
   }
   
   #newBtn {
