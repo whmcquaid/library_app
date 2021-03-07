@@ -1,4 +1,4 @@
-Library app project
+Library app project built using JS
 
 William McQuaid
 
